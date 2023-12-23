@@ -22,6 +22,7 @@ public class Usuario implements Serializable{
 	private Long nombre;
 	private Long clave;
 	private Long email;
+	private Long cedula;
 	private Boolean estado;
 	public Long getId_usuario() {
 		return id_usuario;
